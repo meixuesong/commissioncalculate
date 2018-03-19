@@ -1,4 +1,4 @@
-package com.aia.bill;
+package com.foo.bill;
 
 import org.junit.Before;
 import org.junit.Test;

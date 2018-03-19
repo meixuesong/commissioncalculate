@@ -1,4 +1,4 @@
-package com.aia.bill;
+package com.foo.bill;
 
 public class CommissionRate {
 }
