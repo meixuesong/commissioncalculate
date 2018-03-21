@@ -1,5 +1,9 @@
 package com.foo.bill;
 
+import com.foo.bill.domain.CommissionRate;
+import com.foo.bill.domain.CommissionRateItem;
+import com.foo.bill.domain.PolicyProduct;
+import com.foo.bill.domain.PolicyProductBill;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -8,7 +12,6 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
 public class PolicyProductBillTest {
 

@@ -1,4 +1,4 @@
-package com.foo.bill;
+package com.foo.bill.domain;
 
 import java.util.List;
 
