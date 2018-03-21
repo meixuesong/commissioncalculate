@@ -14,7 +14,7 @@ public class PolicyProductBill {
     }
 
     public double calculateCommission() {
-        List<CommissionRateItem> rateItemList =  policyProduct.getCommissionRates();
+        List<CommissionRateItem> rateItemList = policyProduct.getCommissionRate().getCommissionRateList();
         double result = 0;
         int index = getCurrentPremiumIndexOf(rateItemList);
 

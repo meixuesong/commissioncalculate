@@ -1,17 +1,13 @@
 package com.foo.bill;
 
-import java.util.List;
-
 public class PolicyProduct {
-    public PolicyProduct(CommissionRate commissionRate) {
+    private CommissionRate commissionRate;
 
+    public void setCommissionRate(CommissionRate commissionRate) {
+        this.commissionRate = commissionRate;
     }
 
-    public double getCommissionRate() {
-        return 0.05D;
-    }
-
-    public List<CommissionRateItem> getCommissionRates() {
-        return null;
+    public CommissionRate getCommissionRate() {
+        return commissionRate;
     }
 }

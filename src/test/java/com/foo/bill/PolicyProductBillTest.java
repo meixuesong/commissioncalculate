@@ -17,9 +17,7 @@ public class PolicyProductBillTest {
 
     @Before
     public void setUp() throws Exception {
-        commissionRate = new CommissionRate();
-        policyProduct = mock(PolicyProduct.class);
-
+        policyProduct = new PolicyProduct();
 
         List<CommissionRateItem> commissionRateList = Arrays.asList(
             new CommissionRateItem(10000, 0.05),
@@ -27,7 +25,8 @@ public class PolicyProductBillTest {
             new CommissionRateItem(Long.MAX_VALUE, 0.10)
         );
 
-        when(policyProduct.getCommissionRates()).thenReturn(commissionRateList);
+        commissionRate = new CommissionRate(commissionRateList);
+        policyProduct.setCommissionRate(commissionRate);
     }
 
     @Test
