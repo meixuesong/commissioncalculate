@@ -3,9 +3,9 @@ package com.foo.bill.service;
 import com.foo.bill.domain.PolicyProductBill;
 
 public class CommissionCalculateServiceImpl implements CommissionCalculateService {
-    private com.foo.bill.domain.PolicyProductBillRepsitory policyProductBillRepsitory;
+    private PolicyProductBillRepsitory policyProductBillRepsitory;
 
-    public CommissionCalculateServiceImpl(com.foo.bill.domain.PolicyProductBillRepsitory policyProductBillRepsitory) {
+    public CommissionCalculateServiceImpl(PolicyProductBillRepsitory policyProductBillRepsitory) {
         this.policyProductBillRepsitory = policyProductBillRepsitory;
     }
 

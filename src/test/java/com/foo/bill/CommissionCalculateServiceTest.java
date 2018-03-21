@@ -4,7 +4,7 @@ import com.foo.bill.domain.CommissionRate;
 import com.foo.bill.domain.CommissionRateItem;
 import com.foo.bill.domain.PolicyProduct;
 import com.foo.bill.domain.PolicyProductBill;
-import com.foo.bill.domain.PolicyProductBillRepsitory;
+import com.foo.bill.service.PolicyProductBillRepsitory;
 import com.foo.bill.repository.PolicyProductBillRepsitoryImpl;
 import com.foo.bill.service.CommissionCalculateService;
 import com.foo.bill.service.CommissionCalculateServiceImpl;
